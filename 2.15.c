@@ -7,6 +7,8 @@ int main()
     float die,rad,area;
     die=sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
     rad=die/2;
+
+    
     area=pi*rad*rad;
     printf("Area is =%f",area);
     return 0;
